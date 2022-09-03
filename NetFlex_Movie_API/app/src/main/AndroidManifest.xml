@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.netflex_movie_api">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NetFlex_Movie_API"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".FilmActivity_ViewbyID" />
+        <activity android:name=".FilmActivity_CUD" />
+        <activity android:name=".FilmActivity_Add"></activity>
+        <activity android:name=".ActorActivity" />
+        <activity android:name=".ActorActivity_Add" />
+        <activity android:name=".ActorActivity_ViewbyID" />
+        <activity android:name=".ActorActivity_withMovie" />
+        <activity android:name=".ProducerActivity" />
+        <activity android:name=".ProducerActivity_Add" />
+        <activity android:name=".ProducerActivity_ViewbyID" />
+    </application>
+
+</manifest>

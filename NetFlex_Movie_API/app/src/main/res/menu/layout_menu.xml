@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:icon="@drawable/ic_menu"
+        android:title="@string/actor"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item android:id="@+id/menu_actor"
+                android:icon="@drawable/ic_actor"
+                android:title="@string/actor"
+                />
+
+
+            <item android:id="@+id/menu_film"
+                android:icon="@drawable/ic_film"
+                android:title="@string/film"
+                />
+
+            <item android:id="@+id/menu_producer"
+                android:icon="@drawable/ic_producer"
+                android:title="producer"
+                />
+
+        </menu>
+
+    </item>
+
+
+    <item android:id="@+id/logout"
+        android:title="@string/logout"/>
+
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/etname_reg"
+        android:width="300dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etemail_reg"
+        android:width="300dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/etname_reg"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/email"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etpassword_reg"
+        android:width="300dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@id/etemail_reg"
+        android:hint="@string/password"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etpassword_confirm_reg"
+        android:width="300dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@id/etpassword_reg"
+        android:hint="@string/confirm_pass"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnregister_confirm"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpassword_confirm_reg"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:text="@string/register" />
+
+
+</RelativeLayout>

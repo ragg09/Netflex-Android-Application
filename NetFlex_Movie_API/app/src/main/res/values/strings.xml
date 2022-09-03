@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">NetFlex</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">register</string>
+    <string name="forgot">Forgot</string>
+    <string name="confirm_pass">Confirm Pass:</string>
+    <string name="confirm">Confirm</string>
+    <string name="name">Name</string>
+    <string name="remember_me">Remember me</string>
+    <string name="actor">actor</string>
+    <string name="logout">Logout</string>
+    <string name="film">film</string>
+    <string name="todo">TODO</string>
+    <string name="note">Note:</string>
+    <string name="website">Website</string>
+    <string name="title_activity_actor_with_movie">ActorActivity_withMovie</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
